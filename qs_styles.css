@@ -1,4 +1,532 @@
-body,html	{font-size:100%;}
+#mainContentArea_company{
+width:100%;
+max-width:1300px;
+min-width:750px;
+}
+
+#companyTemp{
+width:100%;
+max-width:1300px;
+min-width:750px;
+}
+/*popupmenu*/
+#popup-menu h3 a{
+color:white;
+}
+#popup-menu h3{
+color:white;
+border:solid 1px rgba(0,0,0,0.2);
+text-align:center;
+padding:3px;
+margin-top:4px;
+margin-bottom:4px;
+/*
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-weight: 500;
+*/
+font-size: 13px;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #7db9e8 0%, #207cca 49%, #3145f7 50%, #0008f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#3145f7), color-stop(100%,#0008f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#0008f9',GradientType=0 ); /* IE6-9 */
+
+}
+
+.sub-menu h3 a{
+color:white;
+}
+
+.sub-menu h3{
+color:white;
+border:solid 1px rgba(0,0,0,0.2);
+text-align:center;
+padding:3px;
+margin-top:4px;
+margin-bottom:4px;
+margin-right:4px;
+/*
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-weight: 500;
+*/
+font-size: 13px;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #7db9e8 0%, #207cca 49%, #3145f7 50%, #0008f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#3145f7), color-stop(100%,#0008f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#0008f9',GradientType=0 ); /* IE6-9 */
+
+}
+
+#popup-menu{
+color:white;
+background:white;
+
+text-shadow: 1px 1px rgba(20,20,20,0.15);
+
+padding:3px 6px 3px 10px;
+position:fixed;
+
+z-index: 9003;
+display:none;
+left:15px;
+border-top:1px solid rgba(50,50,50,0.5);
+border-left:1px solid rgba(0, 103, 165,0.5);
+border-right:1px solid rgba(0, 103, 165,0.5);
+border-bottom:1px solid rgba(0, 103, 165,0.5);
+}
+
+.sub-menu{
+border:1px solid rgba(0, 103, 165,0.5);
+background:white;
+
+padding:3px 6px 3px 10px;
+position:fixed;
+
+z-index: 9001;
+display:none;
+left:60px;
+margin-top:20px;
+
+-moz-box-shadow:    -1px 0px 4px 2px rgba(125,125,125,0.7);
+-webkit-box-shadow: -1px 0px 4px 2px rgba(125,125,125,0.7);
+box-shadow:         -1px 0px 4px 2px rgba(125,125,125,0.7);
+
+text-shadow: 1px 1px rgba(20,20,20,0.15);
+
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+#cat_close{
+color:red;
+}
+/**/
+
+.ui-grid-a > .ui-block-a.main { width: 20% }
+.ui-grid-a > .ui-block-b.side { width: 80%; } 
+/**/
+
+#breadcrumb{
+margin-top:10px;
+}
+
+
+.myButton{
+margin-top:50px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:30px;
+padding-right:30px;
+border-left:1px solid rgba(255,255,255,0.5);
+border-right:1px solid rgba(255,255,255,0.5);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow:    -1px 0px 4px 2px rgba(125,125,125,0.5);
+-webkit-box-shadow: -1px 0px 4px 2px rgba(125,125,125,0.5);
+box-shadow:         -1px 0px 4px 2px rgba(125,125,125,0.5);
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 23%, #474747 36%, #2c2c2c 44%, #000000 47%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(23%,#666666), color-stop(36%,#474747), color-stop(44%,#2c2c2c), color-stop(47%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 23%,#474747 36%,#2c2c2c 44%,#000000 47%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 23%,#474747 36%,#2c2c2c 44%,#000000 47%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 23%,#474747 36%,#2c2c2c 44%,#000000 47%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 23%,#474747 36%,#2c2c2c 44%,#000000 47%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+
+/* search input s*/
+.rounded{
+border: 1px solid #ccc;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+
+-moz-box-shadow: 2px 2px 3px #666;
+-webkit-box-shadow: 2px 2px 3px #666;
+box-shadow: 2px 2px 3px #666;
+
+font-size:20px;
+padding: 4px 7px;
+
+outline:0;
+-webkit-appearance:none;
+}
+
+input .rounded:focus{
+border-color: #339933;
+}
+
+/* delete margin in header span*/
+#mpControl_prodlist_categoryproducts_header div span{
+margin:0;padding:0;
+}
+
+#mpControl_prodlist_categoryproducts_footer div span{
+margin:0; padding:0;
+}
+
+
+/**/
+#footer-bot ul{
+list-style:none;
+}
+
+#footer-bot h3{
+padding-left:5px;
+padding-top:5px;
+padding-bottom:5px;
+margin-left:2px;
+color:white;
+font-size:1.5em;
+font-weight:100;
+}
+
+/**/
+
+.blackGrad{
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top, #4c4c4c 0%, #595959 5%, #666666 17%, #474747 39%, #2c2c2c 48%, #000000 50%, #111111 67%, #2b2b2b 84%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(5%,#595959), color-stop(17%,#666666), color-stop(39%,#474747), color-stop(48%,#2c2c2c), color-stop(50%,#000000), color-stop(67%,#111111), color-stop(84%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 5%,#666666 17%,#474747 39%,#2c2c2c 48%,#000000 50%,#111111 67%,#2b2b2b 84%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #4c4c4c 0%,#595959 5%,#666666 17%,#474747 39%,#2c2c2c 48%,#000000 50%,#111111 67%,#2b2b2b 84%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #4c4c4c 0%,#595959 5%,#666666 17%,#474747 39%,#2c2c2c 48%,#000000 50%,#111111 67%,#2b2b2b 84%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+background: linear-gradient(to bottom, #4c4c4c 0%,#595959 5%,#666666 17%,#474747 39%,#2c2c2c 48%,#000000 50%,#111111 67%,#2b2b2b 84%,#1c1c1c 91%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+.blueGrad{
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #7db9e8 0%, #207cca 49%, #3145f7 50%, #0008f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#3145f7), color-stop(100%,#0008f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 49%,#3145f7 50%,#0008f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#0008f9',GradientType=0 ); /* IE6-9 */
+}
+
+.redGrad{
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+background:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+background:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+background:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+background:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);
+background-color:#f24537;
+}
+
+
+/**/
+
+.productList li{
+
+border:solid 1px rgba(0,0,0,0.2);
+-moz-box-shadow:    -1px 0px 4px 2px rgba(125,125,125,0.3);
+-webkit-box-shadow: -1px 0px 4px 2px rgba(125,125,125,0.3);
+box-shadow:         -1px 0px 4px 2px rgba(125,125,125,0.3);
+
+}
+
+.categoryList li{
+
+border:solid 1px rgba(0,0,0,0.2);
+-moz-box-shadow:    -1px 0px 4px 2px rgba(125,125,125,0.3);
+-webkit-box-shadow: -1px 0px 4px 2px rgba(125,125,125,0.3);
+box-shadow:         -1px 0px 4px 2px rgba(125,125,125,0.3);
+}
+
+.imageContainer img{
+
+border:solid 1px rgba(0,0,0,0.2);
+}
+
+.pointer{
+/*
+margin-top:15px;
+margin-left:5px;
+margin-right:5px;
+*/
+padding:15px;
+}
+
+.prodThumb{
+margin-bottom:20px;
+}
+.price{
+color:red;
+
+}
+
+
+.basePrice{
+color:red;
+
+}
+
+/*product list*/
+
+.productList li{
+border:solid 1px rgba(0,0,0,0.2);
+-moz-box-shadow:    -1px 0px 4px 2px rgba(125,125,125,0.3);
+-webkit-box-shadow: -1px 0px 4px 2px rgba(125,125,125,0.3);
+box-shadow:         -1px 0px 4px 2px rgba(125,125,125,0.3);
+
+}
+
+.productList li h5{
+font-size:9px;
+}
+/**/
+
+#mainDesc p{
+margin-left:5%;
+margin-right:5%;
+}
+
+/*slidershow*/
+
+#slideshowContainer{
+margin:0 auto;
+width:590px;
+height:220px;
+padding-bottom:10px;
+overflow: hidden;
+padding-top:0px;
+}
+	
+#wideSlideshow{
+padding:0;
+margin:0;
+}
+
+.nav_but{
+position:relative;
+z-index:1001;
+left:100px;
+top:190px;
+padding-right:10px;
+}
+
+
+/*footer*/
+
+
+#footer{
+width:100%;
+max-width:1300px;
+min-width:750px;
+}
+
+#footer-banner{
+height:100px;
+
+max-width:1300px;
+
+}
+#banner-container{
+max-width:1100px;
+width:100%;
+margin: 0 auto;
+
+}
+
+#footer-bot{
+height:50px;
+
+}
+
+/*header*/
+#d1, #d2{
+
+border:solid 1px rgba(0,0,0,0.2);
+margin:0 auto;
+max-width:1200px;
+height:300px;
+overflow:hidden;
+
+
+}
+
+
+#BestItems,#NewItems{
+position:relative;
+background:white;
+width:3000px;
+height: 300px;
+left:0px;
+margin: 0 auto;
+}
+
+#b1c, #v1c{
+padding-top:100px;
+
+width:50px;
+height:200px;
+float:left;
+}
+
+#b2c, #v2c{
+padding-top:100px;
+
+width:50px;
+height:200px;
+float:right;
+}
+
+
+#b1, #v1{
+margin: 0 auto;
+
+
+}
+
+#b2, #v2{
+
+margin: 0 auto;
+}
+#e1, #e2{
+max-width:1300px;
+width:100%;
+
+}
+
+
+
+
+#header{
+width:100%;
+max-width:1300px;
+min-width:750px;
+height:120px;
+}
+
+#header-top{
+height:70px;
+
+}
+#logo{
+float: left;
+}
+
+#nav{
+float:right;
+list-style-position: outside;
+list-style-type:none;
+height:70px;
+margin:0px;
+
+}
+
+
+a:link {
+color: rgb(0,50,200);
+text-decoration:none;
+}
+a:visited {
+color: rgb(0,50,200);
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+} 
+
+#nav{
+margin-right:5px;
+}
+#nav li a{
+color:white;
+font-weight: bold;
+font-size:20px;
+text-shadow: -1px -1px rgba(0,0,0,0.1), 1px 1px rgba(0,0,0,0.3);
+ 
+
+}
+
+#nav li{
+overflow:hidden;
+padding-top:20px;
+text-align:center;
+border-left:1px solid rgba(255,255,255,0.2);
+-webkit-box-shadow: -1px 0px 2px rgba(255, 255, 255, 0.2);
+-moz-box-shadow:    -1px 0px 2px rgba(255, 255, 255, 0.2);
+box-shadow:         -1px 0px 2px rgba(255, 255, 255, 0.2);
+
+
+height:50px;
+width:100px;
+float:left;
+}
+
+
+
+#header-bot{
+height:50px;
+
+}
+
+#search-box{
+float:right;
+}
+
+
+
+
+#cat{
+float:left;
+width:148px;
+text-align:center;
+margin-top:11px;
+margin-left:15px;
+padding-top:11px;
+padding-bottom:9px;
+background: #7db9e8;
+background:white;
+ font-family: Helvetica, Arial, sans-serif;
+text-shadow: 1px 1px rgba(20,20,20,0.15);
+
+ font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1em;
+	border-top-right-radius: 10px; 
+	border-top-left-radius: 10px; 
+	border-top:10x solid blue;
+	border-left:1px solid blue;
+border-right:1px solid blue;
+}
+
+.hm_text_desc{
+margin:30px;
+
+}
+
+/*popupmenu ends*/
+
+#mainContentArea{
+
+max-width:1300px;
+min-width:750px;
+}
+body,html	{font-size:100%; margin:0;font-family: Arial,Helvetica,sans-serif;}
 
 #appTemplates {display:none;} /* container for all templates. should be hidden */
 
@@ -9,8 +537,9 @@ body,html	{font-size:100%;}
 loading class. add class to your templates if you want a loading graphic to appear while data is requested. add only to the parent element. 
 loadingBG classname is removed once template is rendered.
 note - wait should only be used in cases where the entire template is being reloaded. the class is NOT automatically removed ever.
+note - background- are use instead of background in case element this is applied to has a bgcolor and it's !important. (like a modal parent)
 */
-.loadingBG	{background:url(loading.gif) no-repeat center center; min-height:100px; min-width:100px;}
+.loadingBG	{background-image:url(loading.gif); background-repeat: no-repeat; background-position: center center; min-height:100px; min-width:100px;}
 li.loadingBG, .wait	{background:url(wait.gif) no-repeat top center; min-height:20px; min-width:20px;}
 span.wait	{display:inline-block;}
 
@@ -31,7 +560,8 @@ td.valignMiddle	{vertical-align: middle;}
 
 
 /* feel free to delete these or override in your own .css file */
-h1, h2, h3, h4, h5, h6	{padding:0; margin:0;}
+h1, h2, h3, h4, h6	{padding:0; margin:0;}
+h5{padding:0; margin:0;}
 p	{margin:0 0 12px 0;}
 
 /* chrome and safari add an outer border/glow to the input in focus. this removes it. */
@@ -118,7 +648,7 @@ and offMenu is toggle off, hiding the change button.
 
 
 /* messaging css. some error css is defined in the jqueryui styles */
-.appMessage	{margin-bottom:3px;}
+.appMessage	{margin-bottom:3px; text-align:left;}
 .appMessage .ui-icon	{float:left; margin:4px 5px;}
 .appMessage {padding:5px;} /* add padding to children, not parent, that way we can empty the parent and no space is reserved */
 .appMessage ul	{margin-left:12px; font-size:.9em;}
@@ -133,7 +663,7 @@ and offMenu is toggle off, hiding the change button.
 
 /* pages like search results, company and/or customer have a side column of links which can be placed/styled w/ this class */
 .sideline	{float:right; width:200px; margin:0 0 24px 24px;}
-.sideline li a	{padding:5px 0; text-decoration:none;} /* recommend at least 5px vert padding for mobile/pad */
+.sideline a	{padding:5px 0; text-decoration:none; display:block;} /* recommend at least 5px vert padding for mobile/pad */
 
 
 
@@ -149,7 +679,6 @@ and override using classes or id's as needed.
 .listStyleNone, .listStyleNone li	{list-style:none;} /* apply to a ul or ol */
 .noPadOrMargin	{padding:0; margin:0;}
 .fluidList li	{float:left; margin:12px; padding:0; display:inline-block;}
-
 
 .quickView	{position:absolute; top:5px; right:5px; z-index:1001;} /* jqui modal has zindex 1002 */
 
@@ -338,8 +867,8 @@ SEARCH RESULTS PAGE
 ***************************************************/
 
 #resultsProdlist {
-	float: left;
-	width: 760px;
+	margin:0 auto;
+	width: 100%;
 	}
 
 #searchNav a	{padding:2px 6px;}
@@ -356,11 +885,11 @@ HELP PAGES
 
 
 /***** CONTACT US ******/
-#contactForm {float:right; margin: 0 0 12px 12px;}
+#contactForm { padding:0; margin: 0 auto; max-width:350px; width:100%;}
 #contactForm fieldset	{border:1px solid #cccccc; padding:10px;}
 #contactForm div	{margin-bottom:5px}
 #contactForm label	{width:105px; display:inline-block; margin-right:6px; vertical-align:top; text-align:right;}
-#contactForm input, #contactForm textarea	{width:145px;}
+#contactForm input, #contactForm textarea	{width:150px;}
 #contactForm textarea	{height:125px;}
 
 
