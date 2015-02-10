@@ -58,7 +58,8 @@ var store_swc = function(_app) {
 
 				var userTeam = _app.model.readLocal('swcUserTeam');
 				if(document.location.search.indexOf("team=") >= 0){
-					//do nothing, it'll get handled in the filter callback
+					var p = _app.u.kvp2Array(document.location.search.substr(1));
+					_app.ext.store_swc.u.setUserTeam({sport:p.sport,team:p.team}, true);
 					}
 				else if(userTeam){
 					_app.ext.store_swc.u.setUserTeam(userTeam, true);
@@ -447,6 +448,7 @@ var store_swc = function(_app) {
 //any functions that are recycled should be here.
 		u : {
 			applyGTS : function(){
+				$('#gts-o-domain').html(window.location.hostname);
 				postscribe('#appView', '<script type="text/javascript">'+_app.templates.gtsscript.html()+'</script>');
 				
 				},
